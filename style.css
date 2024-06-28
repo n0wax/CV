@@ -1,0 +1,146 @@
+body {
+    background-color: #000;
+    font-family: sans-serif;
+    margin: 0;
+    color: #000000;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ustawienie minimalnej wysokości na wysokość widoku */
+}
+
+hr {
+    width: 90%;
+    border-top: 1px solid lightgray;
+}
+
+li::marker {
+    color: teal;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse; /* Usunięcie odstępów między komórkami */
+}
+
+table img {
+    width: 250px; /* Początkowa szerokość obrazów */
+    height: 250px; /* Początkowa wysokość obrazów */
+    transition: transform 0.3s ease; /* Dodanie przejścia dla transformacji */
+}
+
+table img:hover {
+    transform: scale(1.1); /* Powiększenie obrazu o 10% */
+}
+
+.container {
+    width: 1400px;
+    margin: 16px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 0 1 48%;
+}
+
+.left-column {
+    background-color: #fff;
+    padding: 24px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 16px;
+}
+
+.right-column {
+    background-color: #fff;
+    padding: 24px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.name {
+    margin: 16px 0;
+    font-size: 2.5rem;
+}
+
+.basic-info {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.basic-info i {
+    margin-right: 8px;
+    color: #FFA500;
+}
+
+.skills,
+.section {
+    margin-bottom: 24px;
+}
+
+.skills h2,
+.section h2 {
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+}
+
+.section h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+.section p {
+    line-height: 1.6;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.section ul li {
+    margin-bottom: 12px;
+}
+
+.progress {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin: 8px 0;
+    height: 20px;
+}
+
+.progress-fill {
+    background-color: #FFA500;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    height: 100%;
+}
+
+.custom-height {
+    height: 15px;
+}
+
+.footer {
+    background-color: #FFA500;
+    color: #fff;
+    padding: 16px 0; /* Dodatkowy padding dla estetyki */
+    text-align: center; /* Wycentrowany tekst */
+    font-size: 1.2rem;
+    width: 100%; /* Ustawienie szerokości na 100% */
+    position: fixed; /* Ustawienie stopki jako fix na dole */
+    bottom: 0; /* Przyklej stopkę do dolu */
+}
