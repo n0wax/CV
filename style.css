@@ -8,7 +8,7 @@ body {
 .page-content {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ustawienie minimalnej wysokości na wysokość widoku */
+    min-height: 100vh; 
 }
 
 hr {
@@ -23,17 +23,17 @@ li::marker {
 table {
     margin: 0 auto;
     width: 100%;
-    border-collapse: collapse; /* Usunięcie odstępów między komórkami */
+    border-collapse: collapse; 
 }
 
 table img {
-    width: 250px; /* Początkowa szerokość obrazów */
-    height: 250px; /* Początkowa wysokość obrazów */
-    transition: transform 0.3s ease; /* Dodanie przejścia dla transformacji */
+    width: 250px; 
+    height: 250px; 
+    transition: transform 0.3s ease; 
 }
 
 table img:hover {
-    transform: scale(1.1); /* Powiększenie obrazu o 10% */
+    transform: scale(1.1); 
 }
 
 .container {
@@ -137,10 +137,10 @@ table img:hover {
 .footer {
     background-color: #FFA500;
     color: #fff;
-    padding: 16px 0; /* Dodatkowy padding dla estetyki */
-    text-align: center; /* Wycentrowany tekst */
+    padding: 16px 0; 
+    text-align: center; 
     font-size: 1.2rem;
-    width: 100%; /* Ustawienie szerokości na 100% */
-    position: fixed; /* Ustawienie stopki jako fix na dole */
-    bottom: 0; /* Przyklej stopkę do dolu */
+    width: 100%; 
+    position: fixed; 
+    bottom: 0; 
 }
